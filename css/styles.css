@@ -18,8 +18,8 @@
 
     /* website colours */
     --clr-light: #fff ;
-    --clr-dark: #303030 ; 
-    --clr-accent: #16e0bd;
+    --clr-dark: #272727 ; 
+    --clr-accent: #ed7c59; 
 
     /* website font sizes */
     --fs-h1: 3rem;
@@ -48,8 +48,8 @@ html {
 }
 
 body {
-    background: var(--clr-light);
-    color: var(--clr-dark);
+    background: var(--clr-dark);
+    color: var(--clr-light); 
     margin:0;
     font-family: var(--ff-primary);
     font-size: var(--fs-body); 
@@ -135,6 +135,10 @@ header {
      display: flex;
      justify-content: space-between;
      padding: 1em; 
+     background-color: var(--clr-light);
+     background-image: url(../images/header-bg.png) ;
+     background-size: cover;
+     background-blend-mode: multiply;
 }
 
 .logo {
@@ -143,8 +147,8 @@ header {
 
 .nav {
     position: fixed;
-    background: var(--clr-dark);
-    color: var(--clr-light);
+    background: var(--clr-light);
+    color: var(--clr-dark);
     top: 0;
     bottom: 0;
     left: 0;
@@ -179,7 +183,7 @@ header {
 
 .nav-toggle {
     padding: .5em;
-    background: transparent;
+    background: var(--clr-dark);
     border: 0;
     cursor: pointer;
     position: absolute;
