@@ -9,8 +9,8 @@
 :root{
 
     /* website font families */ 
-    --ff-primary: 'Source Sans Pro', sans-serif; 
-    --ff-secondary: 'Source Code Pro', monospace; 
+    --ff-primary: "Playfair Display", serif; 
+    --ff-secondary: "Poppins", sans-serif; 
 
     /* website font weights */
     --fw-reg:300;
